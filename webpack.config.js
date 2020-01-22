@@ -4,7 +4,7 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   mode: "development", // "production" | "development" | "none"
-  entry: "./src/app.js", // string | object | array
+  entry: "./src/index", // string | object | array
   output: {
     filename: "bundle.js", // string
   },
