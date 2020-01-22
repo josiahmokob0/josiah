@@ -16,7 +16,7 @@ export const Text = () => <Button
 export const Emoji = () => (
   <Button
     onClick={action('clicked')}
-    value="😀 😎 👍 💯" />
+    value="😀 💯" />
 );
 
 Emoji.story = {
