@@ -26,7 +26,7 @@ const AppBar = () => {
         <div>
           <a
             href="https://github.com/jmnyarega/portifolio"
-            className="inline-block px-4 py-2 mt-4 text-sm leading-none lg:mt-0">
+            className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white lg:mt-0">
             <Github />
           </a>
         </div>
