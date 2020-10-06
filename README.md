@@ -15,5 +15,5 @@
 
 ### Design Iterations
 - Iteration 1 [here](https://www.figma.com/proto/v3JJQqGujSZVjnxpfF5pOI/Untitled?node-id=4%3A2&scaling=min-zoom)
-- Iteration 2 [here](x)
+- Iteration 2 [here](https://www.figma.com/proto/v3JJQqGujSZVjnxpfF5pOI/Profile?node-id=4%3A2&scaling=scale-down)
 - Iteration 3 [here](x)
