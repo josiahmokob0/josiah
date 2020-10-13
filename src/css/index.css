@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  object-position: left;
+  object-fit: scale-down;
+}

@@ -1,0 +1,25 @@
+.nav-image {
+  flex: 1;
+}
+
+.nav {
+  height: 70px;
+  border-bottom: 1px solid #cc0000;
+}
+
+.col + .col {
+  margin-left: 1rem;
+}
+
+.row {
+  display: flex;
+}
+
+.row-space-btn {
+  justify-content: space-between;
+}
+
+.row-v-center {
+  align-items: center;
+  align-self: center;
+}
