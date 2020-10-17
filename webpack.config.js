@@ -1,19 +1,17 @@
 const path = require("path");
-const fs = require("fs");
-const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+const isDevelopment = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  mode: "development",
+  mode: isDevelopment ? "development" : "production",
   entry: "./src/index.js",
   output: {
-    path: `${__dirname}/bundle`,
+    path: `${__dirname}/docs`,
     filename: "bundle.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      // Also generate a test.html
       filename: "index.html",
       template: "src/pages/index.html",
     }),
