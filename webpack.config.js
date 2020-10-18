@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: `${__dirname}/docs`,
     filename: "bundle.js",
+    publicPath: ""
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -32,6 +33,17 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: "html-loader",
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "svg-url-loader",
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
       },
     ],
   },
