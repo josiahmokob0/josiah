@@ -1,3 +1,22 @@
+.nav {
+  position: relative;
+}
+
 .nav-link__container {
   list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
 }

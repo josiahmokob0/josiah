@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "npx eslint . && npx stylelint '**/*.{css,scss}'",
     "start": "webpack-dev-server --mode=development --open",
-    "production": "cross-env NODE_ENV=production webpack --config webpack.config.js -p",
+    "build:prod": "cross-env NODE_ENV=production webpack -p",
     "build": "webpack"
   },
   "keywords": [],
@@ -21,6 +21,7 @@
     "@webpack-cli/serve": "^1.0.1",
     "babel-loader": "^8.1.0",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^7.0.2",
     "css-loader": "^5.0.0",
     "eslint": "^7.11.0",

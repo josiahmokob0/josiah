@@ -1,0 +1,33 @@
+/* hamburger menu */
+.hamburger {
+  display: block;
+  height: 2px;
+  width: 40px;
+  background-color: white;
+  margin: 5px 0;
+  transition: all 350ms ease-in-out;
+}
+
+.hamburger__open span:first-child {
+  transform: rotate(45deg);
+  transform-origin: 15px 0px;
+}
+
+.hamburger__open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger__open span:last-child {
+  transform: rotate(-45deg);
+  transform-origin: 7px 0px;
+}
+.nav-hamburger {
+  padding: 15px 0;
+  cursor: pointer;
+  right: 0;
+  position: absolute;
+}
+
+.nav-hamburger:hover {
+  opacity: 0.7;
+}
