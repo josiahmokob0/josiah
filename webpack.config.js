@@ -9,10 +9,11 @@ module.exports = {
   output: {
     path: `${__dirname}/docs`,
     filename: "bundle.js",
-    publicPath: ""
+    publicPath: "",
   },
   plugins: [
     new HtmlWebpackPlugin({
+      minify: isDevelopment === "production",
       filename: "index.html",
       template: "src/pages/index.html",
     }),
