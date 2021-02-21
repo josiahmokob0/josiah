@@ -7,7 +7,7 @@ const babel = require('gulp-babel');;
 const rename = require('gulp-rename');
 
 gulp.task('scripts', function() {
-    return gulp.src('./js/scripts.js')
+    return gulp.src('./docs/js/scripts.js')
         .pipe(plumber(plumber({
             errorHandler: function (err) {
                 console.log(err);
@@ -23,17 +23,17 @@ gulp.task('scripts', function() {
             }
         }))
         .pipe(rename({extname: '.min.js'}))
-        .pipe(gulp.dest('./js'));
+        .pipe(gulp.dest('./docs/js'));
 });
 
 gulp.task('styles', function () {
-    return gulp.src('./scss/styles.scss')
+    return gulp.src('./docs/scss/styles.scss')
         .pipe(wait(250))
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('./docs/css'));
 });
 
 gulp.task('watch', function() {
-    gulp.watch('./js/scripts.js', gulp.series('scripts'));
-    gulp.watch('./scss/styles.scss', gulp.series('styles'));
+    gulp.watch('./docs/js/scripts.js', gulp.series('scripts'));
+    gulp.watch('./docs/scss/styles.scss', gulp.series('styles'));
 });
