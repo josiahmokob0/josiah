@@ -642,23 +642,28 @@ footer {
 }
 
 .project {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto 30px auto;
-    overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    & + .project {
+        margin-top: 1.5rem;
+    }
 }
 
 .project-image {
     float: left;
+    img {
+        object-fit: cover;
+        width: 400px;
+        height: 300px;
+        transform: rotate(45deg) translate(-20%, 34%);
+    }
 }
 
 .project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 300px;
     padding: 15px;
 
     h3 {
