@@ -1,11 +1,12 @@
 {
-  "name": "devportfolio-template",
+  "name": "josiah-portifolio",
   "version": "1.2.2",
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
     "watch": "gulp watch"
   },
+  "author": "josiahmokob0",
   "keywords": [
     "portfolio",
     "personal",
@@ -15,7 +16,6 @@
     "dev",
     "josiah"
   ],
-  "author": "Ryan Fitzgerald",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
