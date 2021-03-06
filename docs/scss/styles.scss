@@ -644,7 +644,6 @@ footer {
 .project {
     background: #fff;
     border-radius: 4px;
-    overflow: hidden;
     display: flex;
     align-items: center;
 
@@ -653,13 +652,14 @@ footer {
     }
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 .project-image {
-    float: left;
     img {
         object-fit: cover;
-        width: 400px;
-        height: 300px;
-        transform: rotate(45deg) translate(-20%, 34%);
     }
 }
 
