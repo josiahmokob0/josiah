@@ -660,6 +660,7 @@ footer {
 .project-image {
     img {
         object-fit: cover;
+        max-width: 100%;
     }
 }
 
@@ -726,6 +727,20 @@ footer {
         font-size: 1.2em;
     }
 }
+
+/*
+
+    -------------------------------
+    ------- testimonials ----------
+    -------------------------------
+*/
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
 
 /*
     -------------------------------
@@ -984,6 +999,23 @@ footer {
     }
 
 }
+
+
+.center {
+    text-align: center;
+}
+
+blockquote.quote:before {
+    content: '\201C';
+    color: teal;
+    font-size: 3rem;
+}
+blockquote.quote:after {
+    content: '\201D';
+    color: teal;
+    font-size: 3rem;
+}
+
 
 // Extra Small Devices
 @media only screen and (max-width : 480px) {
