@@ -151,6 +151,7 @@ header {
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-duration: 0.75s;
+    font-size: 2rem;
 
     ul {
         display: inline-block;
@@ -1005,7 +1006,12 @@ footer {
     text-align: center;
 }
 
-blockquote.quote:before {
+blockquote {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+blockquote.blockquote:before {
     content: '\201C';
     color: teal;
     font-size: 3rem;
