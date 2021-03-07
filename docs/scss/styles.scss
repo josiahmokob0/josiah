@@ -115,6 +115,11 @@ p {
     margin: 0;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header {
     position: relative;
     display: inline-block;
