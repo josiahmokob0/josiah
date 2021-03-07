@@ -94,6 +94,35 @@ body {
     }
 }
 
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: $heading;
+    display: inline-block;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #7e8890;
+    margin: 0 0 15px 0;
+}
+
+p {
+    color: $text;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
 // No JS styles
 .no-js {
     #experience-timeline {
@@ -102,27 +131,6 @@ body {
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid $border;
-
-            h3 {
-                font-size: 1.5em;
-                font-weight: 300;
-                color: $heading;
-                display: inline-block;
-                margin: 0;
-            }
-
-            h4 {
-                font-size: 1.2em;
-                font-weight: 300;
-                color: #7e8890;
-                margin: 0 0 15px 0;
-            }
-
-            p {
-                color: $text;
-                font-size: 0.9em;
-                margin: 0;
-            }
         }
 
         &:before, &:after {
@@ -269,28 +277,15 @@ footer {
 }
 
 .social {
-    text-align: right;
+    position: fixed;
+    z-index: 10;
+    top: 210px;
+    min-height: 150px;
+    padding-left: 2rem;
 
-    ul {
-        margin: 5px 0 0 0;
-        padding: 0;
-    }
-
-    li {
-        display: inline-block;
-        font-size: 1.25em;
-        list-style: none;
-    }
-
-    a {
-        display: block;
-        color: $text;
-        padding: 10px;
-
-        &:hover {
-            color: $base-color;
-        }
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .btn-rounded-white {
@@ -742,24 +737,11 @@ footer {
     margin-bottom: 2rem;
 }
 
-
 /*
     -------------------------------
     ----- 10. Contact Styles -----
     -------------------------------
 */
-
-#contact {
-    padding: 50px 15px;
-    background: $base-color;
-    text-align: center;
-
-    h2 {
-        margin: 0 0 15px 0;
-        color: #fff;
-        font-weight: 500;
-    }
-}
 
 #contact-form {
     max-width: 500px;
@@ -770,42 +752,17 @@ footer {
         width: 100%;
         padding: 10px;
         border-radius: 4px;
-        border: none;
         margin-bottom: 10px;
-        background: darken($base-color, 15%);
-        color: #fff;
-        @include transition();
-        @include placeholder {
-            color: #fff;
-        }
-
-        &:focus {
-            outline: none;
-            background: darken($base-color, 25%);
-        }
     }
 
     textarea {
         height: 150px;
         resize: none;
     }
+}
 
-    button {
-        display: block;
-        width: 100%;
-        background: #fff;
-        border-radius: 4px;
-        padding: 5px 10px;
-        border: none;
-        color: $base-color;
-        font-weight: 700;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        @include transition();
-
-        &:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        }
-    }
+.response {
+    display: none;
 }
 
 /*
@@ -897,8 +854,11 @@ footer {
     #lead {
         height: auto;
         min-height: auto;
-        max-height: auto;
         padding: 100px 15px;
+    }
+
+    #contact-form {
+        margin: 2rem;
     }
 
     #lead-content {
@@ -994,11 +954,6 @@ footer {
     footer {
         text-align: center;
     }
-
-    .social {
-        text-align: center;
-    }
-
 }
 
 
@@ -1040,5 +995,4 @@ blockquote.quote:after {
             padding: 5px 10px;
         }
     }
-
 }
