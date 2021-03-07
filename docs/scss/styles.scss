@@ -282,8 +282,8 @@ footer {
 
 .social {
     position: fixed;
-    z-index: 10;
-    top: 210px;
+    z-index: 100;
+    top: calc(100vh * .5);
     min-height: 150px;
     padding-left: 2rem;
 
@@ -746,6 +746,11 @@ footer {
     ----- 10. Contact Styles -----
     -------------------------------
 */
+
+#contact {
+    position: relative;
+    z-index: 999;
+}
 
 #contact-form {
     max-width: 500px;
