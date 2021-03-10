@@ -46,7 +46,7 @@ $border: #dcd9d9;
 
 // Define text colors
 $heading: #374054;
-$text: #74808a;
+$text: #000000;
 
 /*
     ---------------------
@@ -290,6 +290,10 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    .flex {
+        text-transform: capitalize;
+    }
 }
 
 .btn-rounded-white {
@@ -350,7 +354,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../docs/images/lead-bg.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -456,6 +460,7 @@ footer {
     p {
         color: $text;
         margin: 0;
+        line-height: 1.7;
     }
 }
 
