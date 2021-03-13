@@ -5,7 +5,7 @@
             <div class="ui link cards center">
                 <div class="card">
                     <div class="image">
-                        <img src="images/project2.png" alt="">
+                        <img src="../images/project2.png" alt="">
                     </div>
                     <div class="content">
                         <div class="header">QuirkyCoders</div>
@@ -26,7 +26,7 @@
 
                 <div class="card">
                     <div class="image">
-                        <img src="images/project1.png" alt="">
+                        <img src="../images/project1.png" alt="">
                     </div>
                     <div class="content">
                         <div class="header">Gifting Project</div>

@@ -19,3 +19,21 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+
+#about {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9;
+}
+
+#about h2 {
+    color: #374054;
+}
+
+#about p {
+    color: #000000;
+    margin: 0;
+    line-height: 1.7;
+}
+</style>

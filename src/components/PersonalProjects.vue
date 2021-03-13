@@ -5,7 +5,7 @@
             <div class="ui link cards center">
                 <div class="card">
                     <div class="image">
-                        <img src="images/project3.png" alt="">
+                        <img src="../images/project3.png" alt="">
                     </div>
                     <div class="content">
                         <div class="header">Radio</div>
@@ -35,7 +35,7 @@
 
                 <div class="card">
                     <div class="image">
-                        <img src="images/project4.png" alt="">
+                        <img src="../images/project4.png" alt="">
                     </div>
                     <div class="content">
                         <div class="header">Questionista</div>
