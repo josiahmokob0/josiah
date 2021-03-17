@@ -1,17 +1,17 @@
 <template>
-    <div class="app">
-        <Social />
-        <Lead />
-        <Header />
-        <About />
-        <Experience />
-        <ClientProjects />
-        <PersonalProjects />
-        <Skills />
-        <Testimonial />
-        <div class="ui section divider"></div>
-        <Contact />
-    </div>
+  <div class="app">
+    <Social />
+    <Lead />
+    <Header />
+    <About />
+    <Experience />
+    <ClientProjects />
+    <PersonalProjects />
+    <Skills />
+    <Testimonial />
+    <div class="ui section divider"></div>
+    <Contact />
+  </div>
 </template>
 
 <script>
