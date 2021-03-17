@@ -1,24 +1,24 @@
 new Vue({
-	data() {
-		return {
-			recommendations: [],
-		}
-	},
-	async created() {
-		this.recommendations = await this.fetchRecommendations();
-	},
-	methods: {
-		async fetchRecommendations() {
-			let results = []
-			const res = await fetch('http://localhost:63342/josiah/scripts/recommendations.json');
-			const data = await res.json();
-			for (let rec in data) {
-				results.push(data[rec])
-			}
-			return results
-		}
-	},
-	template: `
+  data() {
+    return {
+      recommendations: [],
+    }
+  },
+  async created() {
+    this.recommendations = await this.fetchRecommendations();
+  },
+  methods: {
+    async fetchRecommendations() {
+      let results = []
+      const res = await fetch('http://localhost:63342/josiah/scripts/recommendations.json');
+      const data = await res.json();
+      for (let rec in data) {
+        results.push(data[rec])
+      }
+      return results
+    }
+  },
+  template: `
     <div>
     <div class="ui cards fluid" v-for="recommendation in recommendations">
       <div class="ui card fluid">
@@ -38,6 +38,6 @@ new Vue({
       </div>
     </div>
     </div>
-	`
+  `
 }).$mount("#recommendations")
 
