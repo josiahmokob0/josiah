@@ -43,7 +43,6 @@
                 Participated in internal mentorship programs(Simulation and BootCamp) to mentor junior developers.
               </li>
             </ul>
-            <p></p>
           </div>
         </div>
       </div>

@@ -4,21 +4,17 @@
     <div id="lead-content">
       <h1>Josiah Mokobo</h1>
       <h2>Software Developer</h2>
-      <a class="btn-rounded-white" href="https://github.com/josiahmokob0/documents/raw/master/resume.pdf">Download
-        Resume</a>
+      <a class="btn-rounded-white" href="https://github.com/josiahmokob0/documents/raw/master/resume.pdf">
+        Download Resume
+      </a>
     </div>
-    <!-- End #lead-content -->
-
     <div id="lead-overlay"></div>
-
     <div id="lead-down">
       <span>
-            <i aria-hidden="true" class="fa fa-chevron-down"></i>
-          </span>
+        <i aria-hidden="true" class="fa fa-chevron-down"></i>
+      </span>
     </div>
-    <!-- End #lead-down -->
   </div>
-  <!-- End #lead -->
 
 </template>
 

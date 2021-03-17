@@ -25,7 +25,6 @@
             </div>
           </div>
         </div>
-
         <div class="card">
           <div class="image">
             <img src="../images/project1.png" alt="">

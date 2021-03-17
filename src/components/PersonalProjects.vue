@@ -32,7 +32,6 @@
             </div>
           </div>
         </div>
-
         <div class="card">
           <div class="image">
             <img src="../images/project4.png" alt="">
