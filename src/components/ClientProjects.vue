@@ -14,7 +14,8 @@
               <span class="date">2020</span>
             </div>
             <div class="description">
-              I helped built a web application with an easy to use User Interface to enable our users(Software Developers) to find Jobs
+              I helped built a web application with an easy to use User Interface to enable our users(Software
+              Developers) to find Jobs
               easily.
             </div>
           </div>
@@ -41,8 +42,8 @@
           <div class="extra content">
             <div class="ui one buttons">
               <a href="https://ourgivingboard-staging.netlify.app/#/" class="ui basic blue button">
-                  View Project
-                </a>
+                View Project
+              </a>
             </div>
           </div>
         </div>

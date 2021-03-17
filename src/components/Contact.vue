@@ -6,18 +6,18 @@
       <form class="ui form">
         <div class="field">
           <label>Subject:
-              <input type="text" name="_subject" placeholder="Subject">
-            </label>
+            <input type="text" name="_subject" placeholder="Subject">
+          </label>
         </div>
         <div class="field">
           <label>Email:
-              <input type="email" name="_replyto" placeholder="Email">
-            </label>
+            <input type="email" name="_replyto" placeholder="Email">
+          </label>
         </div>
         <div class="field">
           <label>Message:
-              <textarea name="message"></textarea>
-            </label>
+            <textarea name="message"></textarea>
+          </label>
         </div>
         <button class="ui button teal large" type="submit">Submit</button>
       </form>
