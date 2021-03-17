@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <div id="mobile-menu-open" class="shadow-large">
       <i class="fa fa-bars" aria-hidden="true"></i>
@@ -32,4 +33,5 @@
       </ul>
     </header>
   </div>
+
 </template>

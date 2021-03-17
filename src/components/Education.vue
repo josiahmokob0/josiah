@@ -1,4 +1,5 @@
 <template>
+
   <div id="education">
     <h2 class="heading">Education</h2>
     <div class="education-block">
@@ -10,4 +11,5 @@
       </p>
     </div>
   </div>
+
 </template>
