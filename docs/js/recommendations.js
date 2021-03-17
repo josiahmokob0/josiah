@@ -2,21 +2,23 @@ new Vue({
   data() {
     return {
       recommendations: [],
-    }
+    };
   },
   async created() {
     this.recommendations = await this.fetchRecommendations();
   },
   methods: {
     async fetchRecommendations() {
-      let results = []
-      const res = await fetch('http://localhost:63342/josiah/scripts/recommendations.json');
+      let results = [];
+      const res = await fetch(
+        "http://localhost:63342/josiah/scripts/recommendations.json"
+      );
       const data = await res.json();
       for (let rec in data) {
-        results.push(data[rec])
+        results.push(data[rec]);
       }
-      return results
-    }
+      return results;
+    },
   },
   template: `
     <div>
@@ -38,6 +40,5 @@ new Vue({
       </div>
     </div>
     </div>
-  `
-}).$mount("#recommendations")
-
+  `,
+}).$mount("#recommendations");
