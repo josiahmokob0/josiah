@@ -538,11 +538,10 @@ footer {
 }
 #contact {
   position: relative;
-  z-index: 999;
+  margin: 0 2rem;
 }
 #contact-form {
   max-width: 500px;
-  margin: 0 auto;
 }
 #contact-form input,
 #contact-form textarea {
@@ -621,8 +620,9 @@ footer {
     min-height: auto;
     padding: 100px 15px;
   }
+
   #contact-form {
-    margin: 2rem;
+    margin: 2rem auto;
   }
   #lead-content {
     position: relative;
@@ -662,6 +662,9 @@ footer {
     box-shadow: none;
     border-radius: 0;
     width: 100%;
+  }
+  .social {
+    display: none;
   }
   #menu li {
     display: block;

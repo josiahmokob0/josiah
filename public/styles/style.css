@@ -480,29 +480,7 @@ footer {
     ----- 10. Contact Styles -----
     -------------------------------
 */
-#contact {
-  position: relative;
-  z-index: 999;
-}
 
-#contact-form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-#contact-form input,
-#contact-form textarea {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
-
-#contact-form textarea {
-  height: 150px;
-  resize: none;
-}
 
 .response {
   display: none;
