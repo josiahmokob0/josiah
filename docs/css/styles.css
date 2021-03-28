@@ -666,6 +666,9 @@ footer {
   .social {
     display: none;
   }
+  #contact-form {
+    margin: 0 2rem;
+  }
   #menu li {
     display: block;
     margin-bottom: 10px;
