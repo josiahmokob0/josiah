@@ -538,10 +538,10 @@ footer {
 }
 #contact {
   position: relative;
-  margin: 0 2rem;
 }
 #contact-form {
   max-width: 500px;
+  margin: 0 auto;
 }
 #contact-form input,
 #contact-form textarea {
