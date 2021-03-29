@@ -40,7 +40,7 @@
           <transition name="fade">
           <sui-message
             v-if="message"
-            header="Welcome back!"
+            header="Info"
             dismissable
             @dismiss="handleDismiss">
             {{message}}
