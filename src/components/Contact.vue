@@ -1,19 +1,20 @@
 <template lang="html">
   <div id="contact">
-    <h2 class="center heading">Get in Touch</h2>
-    <div id="contact-form">
-      <sui-form>
-        <sui-form-field>
-          <label>Email</label>
-          <input
-            type="text"
-            placeholder="First Name"
-            name="email"
-            v-model="email"
-          />
+    <sui-card class="fluid centered">
+      <h2 class="center heading">Get in Touch</h2>
+      <div id="contact-form">
+        <sui-form>
+          <sui-form-field>
+            <label>Email: </label>
+            <input
+              type="text"
+              placeholder="First Name"
+              name="email"
+              v-model="email"
+              />
         </sui-form-field>
         <sui-form-field>
-          <label>Subject</label>
+          <label>Subject: </label>
           <input
             type="text"
             placeholder="First Name"
@@ -22,7 +23,7 @@
             />
         </sui-form-field>
         <sui-form-field>
-          <label>Short Text</label>
+          <label>Message: </label>
           <textarea
             rows="2"
             name="content"
@@ -47,8 +48,9 @@
           </sui-message>
           </transition>
         </div>
-      </sui-form>
-    </div>
+        </sui-form>
+      </div>
+    </sui-card>
   </div>
 
 </template>
@@ -76,6 +78,7 @@ export default  {
     async sendForm(data) {
       try {
         this.loading = true;
+        this.message = "";
         await fetch("https://formspree.io/f/xknpaepv", {
           method: "POST",
           headers: {
@@ -101,11 +104,11 @@ export default  {
 #contact {
   position: relative;
   z-index: 999;
+  margin: 0 auto;
 }
 
 #contact-form {
-  max-width: 500px;
-  margin: 2rem auto;
+  margin: 3rem 4rem;
 }
 
 #contact-form input,
@@ -123,5 +126,29 @@ export default  {
 }
 .feedback {
   margin: 2rem 0;
+}
+
+@media only screen and (max-width: 480px) {
+  #contact {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #contact {
+    width: 92%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #contact {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #contact {
+    width: 59%;
+  }
 }
 </style>
