@@ -1067,28 +1067,13 @@
 @xtuc/long	package-lock.json	/^        "@xtuc\/long": "4.2.2"$/;"	s	object:dependencies.@webassemblyjs/wast-parser.requires
 @xtuc/long	package-lock.json	/^        "@xtuc\/long": "4.2.2"$/;"	s	object:dependencies.@webassemblyjs/wast-printer.requires
 @xtuc/long	package-lock.json	/^    "@xtuc\/long": {$/;"	o	object:dependencies
-Advanced Configuration	README.md	/^### Advanced Configuration$/;"	S	section:Getting Started with Create React App""Learn More
-Analyzing the Bundle Size	README.md	/^### Analyzing the Bundle Size$/;"	S	section:Getting Started with Create React App""Learn More
 App	src/App.js	/^const App = () => ($/;"	C
-Available Scripts	README.md	/^## Available Scripts$/;"	s	chapter:Getting Started with Create React App
-Code Splitting	README.md	/^### Code Splitting$/;"	S	section:Getting Started with Create React App""Learn More
 Container	src/components/container.js	/^export const Container = styled.div`$/;"	C
-Container	src/components/global_styles.js	/^export const Container = styled.div`$/;"	C
-Deployment	README.md	/^### Deployment$/;"	S	section:Getting Started with Create React App""Learn More
-Getting Started with Create React App	README.md	/^# Getting Started with Create React App$/;"	c
-Learn More	README.md	/^## Learn More$/;"	s	chapter:Getting Started with Create React App
 Logo	Header.js	/^const Logo = () => {$/;"	C
-Logo	src/components/Header.js	/^const Logo = () => {$/;"	C
+Logo	src/components/Header.js	/^const Logo = () => <LogoComponent \/>;$/;"	C
 Logo	src/components/Logo/index.js	/^const Logo = () => <LogoComponent \/>;$/;"	C
 LogoComponent	src/components/Logo/LogoComponent.js	/^export const LogoComponent = styled.span`$/;"	C
-Main	src/components/container.js	/^export const Main = styled.div`$/;"	C
-Main	src/components/global_styles.js	/^export const Main = styled.div`$/;"	C
-Making a Progressive Web App	README.md	/^### Making a Progressive Web App$/;"	S	section:Getting Started with Create React App""Learn More
-`yarn build`	README.md	/^### `yarn build`$/;"	S	section:Getting Started with Create React App""Available Scripts
-`yarn build` fails to minify	README.md	/^### `yarn build` fails to minify$/;"	S	section:Getting Started with Create React App""Learn More
-`yarn eject`	README.md	/^### `yarn eject`$/;"	S	section:Getting Started with Create React App""Available Scripts
-`yarn start`	README.md	/^### `yarn start`$/;"	S	section:Getting Started with Create React App""Available Scripts
-`yarn test`	README.md	/^### `yarn test`$/;"	S	section:Getting Started with Create React App""Available Scripts
+Main	src/components/container.js	/^export const Main = styled.div``;$/;"	C
 a	src/styles.css	/^a,$/;"	s
 a:hover	src/styles.css	/^a:hover {$/;"	s
 a:visited	src/styles.css	/^a:visited,$/;"	s

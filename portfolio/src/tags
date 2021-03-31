@@ -18,7 +18,7 @@ Container	components/global_styles.js	/^export const Container = styled.div`$/;"
 Logo	components/Header.js	/^const Logo = () => <LogoComponent \/>;$/;"	C
 Logo	components/Logo/index.js	/^const Logo = () => <LogoComponent \/>;$/;"	C
 LogoComponent	components/Logo/LogoComponent.js	/^export const LogoComponent = styled.span`$/;"	C
-Main	components/container.js	/^export const Main = styled.div`$/;"	C
+Main	components/container.js	/^export const Main = styled.div``;$/;"	C
 Main	components/global_styles.js	/^export const Main = styled.div`$/;"	C
 a	styles.css	/^a,$/;"	s
 a:hover	styles.css	/^a:hover {$/;"	s
