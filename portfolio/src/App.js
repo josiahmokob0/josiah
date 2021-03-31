@@ -1,8 +1,12 @@
+import { Main } from "./components/global_styles";
+import Header from "./components/Header";
+
+import "./styles.css";
 
 const App = () => (
-  <div>
-    <code>Josiah</code>
-  </div>
+  <Main>
+    <Header />
+  </Main>
 );
 
 export default App;
