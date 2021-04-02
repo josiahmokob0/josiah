@@ -12,14 +12,29 @@
 *	styles.css	/^*,$/;"	s
 *::after	styles.css	/^*::after {$/;"	s
 *::before	styles.css	/^*::before,$/;"	s
+.container	components/Header/index.css	/^.container {$/;"	c
+.hero	components/Hero/index.css	/^.hero {$/;"	c
+.links	components/Header/index.css	/^.links {$/;"	c
+.links > li:hover::after	components/Header/index.css	/^.links > li:hover::after {$/;"	s
+.logo	components/Logo/index.css	/^.logo {$/;"	c
+.logo::after	components/Logo/index.css	/^.logo::after {$/;"	c
+.logo::before	components/Logo/index.css	/^.logo::before {$/;"	c
+.window	components/window/index.css	/^.window {$/;"	c
+.window__bar	components/window/index.css	/^.window__bar {$/;"	c
+.window__content	components/window/index.css	/^.window__content {$/;"	c
+.window__content-frame	components/window/index.css	/^.window__content-frame {$/;"	c
+.window__content-frame:before	components/window/index.css	/^.window__content-frame:before {$/;"	c
+:root	styles.css	/^:root {$/;"	s
 App	App.js	/^const App = () => ($/;"	C
-Container	components/container.js	/^export const Container = styled.div`$/;"	C
-Container	components/global_styles.js	/^export const Container = styled.div`$/;"	C
-Logo	components/Header.js	/^const Logo = () => <LogoComponent \/>;$/;"	C
-Logo	components/Logo/index.js	/^const Logo = () => <LogoComponent \/>;$/;"	C
-LogoComponent	components/Logo/LogoComponent.js	/^export const LogoComponent = styled.span`$/;"	C
-Main	components/container.js	/^export const Main = styled.div``;$/;"	C
-Main	components/global_styles.js	/^export const Main = styled.div`$/;"	C
+ContainerStyle	components/container/ContainerStyle.js	/^export const ContainerStyle = styled.div`$/;"	C
+ContainerStyle	components/container/container.js	/^export const ContainerStyle = styled.div`$/;"	C
+Header	components/Header/Header.js	/^const Header = () => ($/;"	C
+Hero	components/Hero/index.js	/^const Hero = () => ($/;"	C
+Links	components/Header/Header.js	/^const Links = () => ($/;"	C
+Logo	components/Logo/index.js	/^const Logo = ({ className }) => <div className={`logo ${className}`} \/>;$/;"	C
+MainStyle	components/container/ContainerStyle.js	/^export const MainStyle = styled.div`$/;"	C
+MainStyle	components/container/container.js	/^export const MainStyle = styled.div`$/;"	C
+Window	components/window/index.js	/^const Window = () => ($/;"	C
 a	styles.css	/^a,$/;"	s
 a:hover	styles.css	/^a:hover {$/;"	s
 a:visited	styles.css	/^a:visited,$/;"	s

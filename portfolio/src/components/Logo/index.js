@@ -1,5 +1,5 @@
 import React from "react";
-import { LogoComponent } from "./LogoComponent";
+import "./index.css";
 
-const Logo = () => <LogoComponent />;
-export default Logo 
+const Logo = ({ className }) => <div className={`logo ${className}`} />;
+export default Logo;

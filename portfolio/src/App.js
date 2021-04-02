@@ -1,12 +1,14 @@
-import { Main } from "./components/global_styles";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero";
 
+import 'antd/dist/antd.css'
 import "./styles.css";
 
 const App = () => (
-  <Main>
+  <div>
     <Header />
-  </Main>
+    <Hero />
+  </div>
 );
 
 export default App;

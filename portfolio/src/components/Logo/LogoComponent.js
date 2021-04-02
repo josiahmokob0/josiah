@@ -1,16 +1,13 @@
-import styled from "styled-components";
-import { theme } from "../../styles";
-
-export const LogoComponent = styled.span`
+.logo {
   font-weight: 700;
-  &::before {
+}
+  .logo::before {
     content: "Josiah";
     padding: 0 0.5rem;
     color: ${theme.textColor2};
   }
 
-  &::after {
-    content: "Mokobo";
-    color: ${theme.textColor1};
-  }
-`;
+  .logo::after {
+      content: "Mokobo";
+      color: ${theme.textColor1};
+    }
