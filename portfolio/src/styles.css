@@ -10,7 +10,7 @@ html {
 
 :root {
   --background: #0b0f0f;
-  --textColor1: #099a4b;
+  --textColor1: #34d399;
   --textColor2: #ffffff;
 }
 
@@ -59,4 +59,5 @@ a:hover {
 
 a:hover {
   opacity: 0.6;
+  color: var(--textColor1);
 }
