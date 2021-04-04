@@ -16,7 +16,7 @@ const Window = () => {
     }
 
     function skills() {
-    return [ 'javascript', 'reactjs']
+      return [ 'javascript', 'reactjs']
     }
   `}
         </Highlight>

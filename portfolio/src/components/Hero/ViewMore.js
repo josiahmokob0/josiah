@@ -1,14 +1,9 @@
 import { Button } from "antd";
-import { DownCircleOutlined } from "@ant-design/icons";
 
-const ViewMore = () => (
-  <div className="mouse flex justify-center">
-    <Button
-      type="primary"
-      icon={<DownCircleOutlined />}
-      className="flex items-center"
-    >
-      Work Experience
+const ViewMore = ({ icon, styleClass, text, to }) => (
+  <div className={`flex justify-center ${styleClass}`}>
+    <Button type="primary" icon={icon} className="flex items-center" href={to}>
+      {text}
     </Button>
   </div>
 );
