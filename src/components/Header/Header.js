@@ -3,21 +3,44 @@ import Logo from "../Logo";
 import "./index.css";
 
 const Header = () => (
-  <div className="container">
-    <div className="flex justify-between">
-      <Logo />
-      <Links />
-    </div>
-  </div>
+  <header className="container header">
+    <Logo />
+    <input type="checkbox" id="nav--toggle" className="nav--toggle" />
+    <Links />
+    <label
+      htmlFor="nav--toggle"
+      className="nav__label--toggle flex items-center h-full md:hidden "
+    >
+      <span></span>
+    </label>
+  </header>
 );
 
 const Links = () => (
-  <div className="links flex justify-around gap-x-3 text-green-500">
-    <Link to="/">Home</Link>
-    <Link to="/experience">Experience</Link>
-    <Link to="/projects">Projects</Link>
-    <Link to="/skills">Skills</Link>
-  </div>
+  <nav className="nav text-green-300">
+    <ul className="nav__list">
+      <li className="nav__item">
+        <Link to="/" className="nav__link">
+          Home
+        </Link>
+      </li>
+      <li className="nav__item">
+        <Link to="/experience" className="nav__link">
+          Experience
+        </Link>
+      </li>
+      <li className="nav__item">
+        <Link to="/projects" className="nav__link">
+          Projects
+        </Link>
+      </li>
+      <li className="nav__item">
+        <Link to="/skills" className="nav__link">
+          Skills
+        </Link>
+      </li>
+    </ul>
+  </nav>
 );
 
 export default Header;
