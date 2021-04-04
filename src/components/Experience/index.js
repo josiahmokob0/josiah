@@ -1,4 +1,4 @@
-import { Timeline } from 'antd';
+import { Timeline } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 
 const Experience = () => (
