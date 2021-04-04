@@ -2,7 +2,7 @@ import { Card, Button } from "antd";
 import { EyeOutlined } from "@ant-design/icons";
 
 const PersonalProjects = () => (
-  <div className="experience mt-20">
+  <div className="experience mt-10">
     <div className="container">
       <div className="flex gap-x-10 justify-center ">
         <Card

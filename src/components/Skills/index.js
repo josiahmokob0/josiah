@@ -8,7 +8,7 @@ import PythonIcon from "../common/icons/python";
 import CssIcon from "../common/icons/css";
 
 const Skills = () => (
-  <div className="experience mt-20">
+  <div className="experience mt-10">
     <div className="container">
       <div className="flex gap-x-10 justify-center">
         {[

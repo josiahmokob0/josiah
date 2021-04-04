@@ -2,7 +2,7 @@ import { Timeline } from 'antd';
 import { UserOutlined } from "@ant-design/icons";
 
 const Experience = () => (
-  <div className="experience mt-20">
+  <div className="experience mt-10">
     <div className="container">
       <div className="flex gap-x-1 justify-center">
         <Timeline mode="left" className="text-white w-full" reverse>

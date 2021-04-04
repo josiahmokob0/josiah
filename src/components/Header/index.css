@@ -2,7 +2,6 @@
   width: 1400px;
   margin: 0 auto;
   width: 80%;
-  padding: 2rem 0;
 }
 
 .header {
@@ -40,7 +39,7 @@
   transition: opacity 150ms ease-in-out;
 }
 
-.nav__link:hover::after {
+.nav__link::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -48,6 +47,13 @@
   top: 100%;
   left: 0;
   background-color: var(--textColor1);
+  transform: scale(0, 1);
+  transform-origin: right;
+  transition: transform ease-in-out 250ms;
+}
+
+.nav__link:hover::after {
+  transform: scale(1, 0);
 }
 
 .nav--toggle {
@@ -105,11 +111,11 @@
   }
   .logo {
     grid-column: 1 / span 1;
-    place-self: center;
+    place-self: baseline;
   }
   .nav {
     all: unset;
-    grid-column: 3 /4;
+    grid-column: 4 /4;
   }
   .nav__link {
     opacity: 1;
@@ -126,6 +132,6 @@
   }
 
   .container {
-    display: 2rem 0;
+    padding: 2rem 0;
   }
 }
