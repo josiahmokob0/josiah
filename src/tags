@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/mnt/ssd1/projects/josiah/portfolio/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+*	styles.css	/^*,$/;"	s
+*::after	styles.css	/^*::after {$/;"	s
+*::before	styles.css	/^*::before,$/;"	s
+.container	components/Header/index.css	/^.container {$/;"	c
+.hero	components/Hero/index.css	/^.hero {$/;"	c
+.links	components/Header/index.css	/^.links {$/;"	c
+.links > li:hover::after	components/Header/index.css	/^.links > li:hover::after {$/;"	s
+.logo	components/Logo/index.css	/^.logo {$/;"	c
+.logo::after	components/Logo/index.css	/^.logo::after {$/;"	c
+.logo::before	components/Logo/index.css	/^.logo::before {$/;"	c
+.window	components/window/index.css	/^.window {$/;"	c
+.window__bar	components/window/index.css	/^.window__bar {$/;"	c
+.window__content	components/window/index.css	/^.window__content {$/;"	c
+.window__content-frame	components/window/index.css	/^.window__content-frame {$/;"	c
+.window__content-frame:before	components/window/index.css	/^.window__content-frame:before {$/;"	c
+:root	styles.css	/^:root {$/;"	s
+App	App.js	/^const App = () => ($/;"	C
+ContainerStyle	components/container/ContainerStyle.js	/^export const ContainerStyle = styled.div`$/;"	C
+ContainerStyle	components/container/container.js	/^export const ContainerStyle = styled.div`$/;"	C
+Header	components/Header/Header.js	/^const Header = () => ($/;"	C
+Hero	components/Hero/index.js	/^const Hero = () => ($/;"	C
+Links	components/Header/Header.js	/^const Links = () => ($/;"	C
+Logo	components/Logo/index.js	/^const Logo = ({ className }) => <div className={`logo ${className}`} \/>;$/;"	C
+MainStyle	components/container/ContainerStyle.js	/^export const MainStyle = styled.div`$/;"	C
+MainStyle	components/container/container.js	/^export const MainStyle = styled.div`$/;"	C
+Window	components/window/index.js	/^const Window = () => ($/;"	C
+a	styles.css	/^a,$/;"	s
+a:hover	styles.css	/^a:hover {$/;"	s
+a:visited	styles.css	/^a:visited,$/;"	s
+background	styles.js	/^  background: "#0b0f0f",$/;"	p	class:theme
+body	styles.css	/^body {$/;"	s
+h1	styles.css	/^h1 {$/;"	s
+h1	styles.css	/^h1,$/;"	s
+h2	styles.css	/^h2 {$/;"	s
+h2	styles.css	/^h2,$/;"	s
+h3	styles.css	/^h3 {$/;"	s
+html	styles.css	/^html {$/;"	s
+p	styles.css	/^p {$/;"	s
+textColor1	styles.js	/^  textColor1: "#099a4b",$/;"	p	class:theme
+textColor2	styles.js	/^  textColor2: "#ffffff",$/;"	p	class:theme
+theme	styles.js	/^export const theme = {$/;"	c
